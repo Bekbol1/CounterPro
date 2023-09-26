@@ -2,7 +2,7 @@ package com.example.counterpro.presenter
 
 import android.graphics.Color
 import com.example.counterpro.model.CounterModel
-import com.example.counterpro.ui.CounterView
+import com.example.counterpro.ui.view.CounterView
 
 class Presenter (var counterView: CounterView){
 

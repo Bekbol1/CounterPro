@@ -1,4 +1,4 @@
-package com.example.counterpro.ui
+package com.example.counterpro.ui.view
 
 interface CounterView {
     fun showCount(number:Int)

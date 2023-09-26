@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import com.example.counterpro.R
 import com.example.counterpro.databinding.FragmentCountBinding
 import com.example.counterpro.presenter.Presenter
+import com.example.counterpro.ui.view.CounterView
 
 class CountFragment : Fragment(), CounterView {
     private lateinit var binding: FragmentCountBinding
